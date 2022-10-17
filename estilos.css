@@ -44,6 +44,12 @@ aside {
 }
 
 @media screen and (max-width: 800px) {
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
     #contenedor{
         display: flex;
         flex-direction: column;
@@ -59,12 +65,17 @@ aside {
     #contenedor section{
         width: 100%;
         margin-left: 0px;
+        border-top:solid black 0.1em
     }
 
     #contenedor aside{
         width: 100%;
+        border-top:solid black 0.1em
     }
-    section {
-        border-color: #000;
+
+    nav ul li a{
+        padding: 0.5em;
+        display: block;
     }
+    
 }
